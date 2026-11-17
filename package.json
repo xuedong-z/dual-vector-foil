@@ -1,0 +1,8 @@
+{
+  "name": "dual-vector-foil",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A code-only short film: the dual vector foil flattens the Solar System. three.js, no assets.",
+  "scripts": { "start": "node tools/server.mjs" }
+}

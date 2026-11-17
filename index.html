@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dual Vector Foil</title>
+<style>
+  html,body{margin:0;height:100%;background:#000;overflow:hidden;color:#cfd6e6;
+    font:11px/1.5 ui-monospace,Menlo,monospace;letter-spacing:.18em}
+  #wrap{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+  canvas{max-width:100vw;max-height:100vh;display:block}
+  #hud{position:fixed;left:18px;bottom:14px;opacity:.5;pointer-events:none;text-transform:uppercase}
+  #msg{position:fixed;right:18px;bottom:14px;opacity:.7;text-transform:uppercase}
+</style>
+<script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+</head>
+<body>
+<div id="wrap"><canvas id="c"></canvas></div>
+<div id="hud">Dual Vector Foil · every pixel and sound is code</div>
+<div id="msg">loading</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
